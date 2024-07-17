@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-toggle">
+            <i class="fas fa-bars" id="show"></i>
+            <i class="fas fa-times" id="close"></i>
+          </div>
+
+          <div class="sidebar">
+            <div class="profile">
+                <h2 class="logo">KHEMIST</h2>
+                <img src="images/PngItem_1068071.png" alt="">
+            </div>
+            
+            <ul class="sidebar-lists">
+                <li class="sidebar-list"> 
+                    <a href="home.html"> 
+                        <i id="sidebar-icon" class="fa fa-home"></i>
+                       <span>Home</span> 
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="services.html" >
+                        <i id="sidebar-icon" class="fa fa-briefcase"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">               
+                    <a href="portfolio.html"  >
+                        <i id="sidebar-icon" class="fa fa-pencil-square"></i>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="contact.html" class="active">
+                        <i id="sidebar-icon" class="fa fa-phone"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+          
+            <div class="toggle-cont">
+                <button class="toggle-btn"></button>
+            </div>
+        </div>
+
+        <section class="page contact">
+            <div class="form">
+                <form action="">
+                    <div>
+                        <label for="">NAME</label>
+                        <input type="text" placeholder="Enter Your Name">
+                    </div>
+                    <div>
+                        <label for="">EMAIL</label>
+                        <input type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div>
+                        <label for="">MESSAGE</label>
+                        <input type="text" placeholder="Enter Your Message">
+                    </div>
+
+                    <button>SEND</button>
+
+                </form>
+            </div>
+            <div class="social-media">
+                <h2>FOLLOW ME ON:</h2>
+                <div class="link-img">
+                    <a href=""><img src="images/fb (2).png" alt=""></a>
+                    <a href=""><img src="images/tiktok.png" alt=""></a>
+                    <a href=""><img src="images/x.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/sidebar.js"></script>
+    <script src="js/modetoggle.js"></script>
+</body>
+</html>

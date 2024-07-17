@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav-toggle">
+            <i class="fas fa-bars" id="show"></i>
+            <i class="fas fa-times" id="close"></i>
+          </div>
+
+          <div class="sidebar">
+            <div class="profile">
+                <h2 class="logo">KHEMIST</h2>
+                <img src="images/PngItem_1068071.png" alt="">
+            </div>
+            
+            <ul class="sidebar-lists">
+                <li class="sidebar-list"> 
+                    <a href="home.html"> 
+                        <i id="sidebar-icon" class="fa fa-home"></i>
+                       <span>Home</span> 
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="services.html"  class="active">
+                        <i id="sidebar-icon" class="fa fa-briefcase"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">               
+                    <a href="portfolio.html">
+                        <i id="sidebar-icon" class="fa fa-pencil-square"></i>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="contact.html">
+                        <i id="sidebar-icon" class="fa fa-phone"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+          
+            <div class="toggle-cont">
+                <button class="toggle-btn"></button>
+            </div>
+        </div>
+
+        <section class="page services">
+            <div class="service-lists cont">
+                <div class="service-list list">
+                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                    <h2 class="service-title">FRONTEND DEVELOPMENT</h2>
+                    <p class="service-description">i have years of experience in using <b>HTML</b>,
+                        <b>CSS</b> and <b>JAVASCRIPT</b> to build <b>FRONTEND</b> websites for clients. 
+                </div>
+
+                <div class="service-list list">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2 class="service-title">BACKEND DEVELOPMENT</h2>
+                    <p class="service-description">i have years of experience in using <b>PHP</b>,
+                        and <b>MYSQL</b> to build <b>BACKEND</b> gigs for clients. I build websites uniquely
+                        and with great attention to please my clients. I use modern tools to build to the clients satisfaction 
+                    </p>
+                </div>
+
+                <div class="service-list list">
+                    <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                    <h2 class="service-title">WEB DESIGN (UX/ UI)</h2>
+                    <p class="service-description">i have years of experience in using <b>FIGMA</b>,
+                        <b>PHOTOSHOP</b> and <b>ADOBE FLASH</b> to make <b>WEB DESIGNS</b> websites for clients. I build websites uniquely
+                        and with great attention to please my clients. 
+                    </p>
+                </div>
+
+                <div class="service-list list">
+                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                    <h2 class="service-title">GAME DEVELOPMENT</h2>
+                    <p class="service-description">i have years of experience in using <b>JAVA</b>,
+                        <b>C</b> and <b>C++</b> to build <b>GAMES</b> for clients. I build websites uniquely
+                        and with great attention to please my clients. 
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/sidebar.js"></script>
+    <script src="js/modetoggle.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+  <div class="nav-toggle">
+    <i class="fas fa-bars" id="show"></i>
+    <i class="fas fa-times" id="close"></i>
+  </div>
+        <div class="sidebar">
+            <div class="profile">
+                <h2 class="logo">KHEMIST</h2>
+                <img src="images/sss.jpg" alt="">
+            </div>
+            
+            <ul class="sidebar-lists">
+                <li class="sidebar-list"> 
+                    <a href="home.html" class="active"> 
+                        <i id="sidebar-icon" class="fa fa-home"></i>
+                       <span>Home</span> 
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="services.html">
+                        <i id="sidebar-icon" class="fa fa-briefcase"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">               
+                    <a href="portfolio.html">
+                        <i id="sidebar-icon" class="fa fa-pencil-square"></i>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="contact.html">
+                        <i id="sidebar-icon" class="fa fa-phone"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+          
+            <div class="toggle-cont">
+                <button class="toggle-btn"></button>
+            </div>
+        </div>
+        <section class="page home">
+            <div class="image">
+                <img src="./images/ff1-removebg-preview.png" alt="">
+            </div>
+            <div class="text">
+                <h3>CHARLES OWUSU ASARE</h3>
+                <h1>FULLSTACK Developer From Ghana. </h1>
+                <p>You are welcome, start a little tour by pressing on the buttton </p>
+                <button class="to-projects-btn">See Projects</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/sidebar.js"></script>
+    <script src="js/modetoggle.js"></script>
+</body>
+
+</html>
